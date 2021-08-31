@@ -1,4 +1,4 @@
-update=Sel 24 Agu 2021 08:14:56  WIB
+update=29.03.2017 (ср)  8:17:50 EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,4 +27,19 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../../KiCAD_Components
+[eeschema/libraries]
+LibName1=OLIMEX_Antennas
+LibName2=OLIMEX_Buttons
+LibName3=OLIMEX_Cases
+LibName4=OLIMEX_Connectors
+LibName5=OLIMEX_Devices
+LibName6=OLIMEX_Diodes
+LibName7=OLIMEX_IC
+LibName8=OLIMEX_Jumpers
+LibName9=OLIMEX_OTHER
+LibName10=OLIMEX_Power
+LibName11=OLIMEX_RCL
+LibName12=OLIMEX_Regulators
+LibName13=OLIMEX_Switches
+LibName14=OLIMEX_Transistors
