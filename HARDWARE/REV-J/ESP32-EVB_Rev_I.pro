@@ -1,4 +1,4 @@
-update=Sel 31 Agu 2021 08:41:54  WIB
+update=17.03.2020 (вт) 16:20:38 EET
 version=1
 last_client=kicad
 [cvpcb]
@@ -38,13 +38,12 @@ MinHoleToHole=0.3048
 TrackWidth1=0.2032
 TrackWidth2=0.254
 TrackWidth3=0.3048
-TrackWidth4=0.4064
-TrackWidth5=0.508
-TrackWidth6=0.762
-TrackWidth7=1.016
-TrackWidth8=1.27
-TrackWidth9=1.524
-TrackWidth10=1.778
+TrackWidth4=0.508
+TrackWidth5=0.762
+TrackWidth6=1.016
+TrackWidth7=1.27
+TrackWidth8=1.524
+TrackWidth9=1.778
 ViaDiameter1=0.45
 ViaDrill1=0.3
 ViaDiameter2=0.7
@@ -79,7 +78,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.0508
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=2
