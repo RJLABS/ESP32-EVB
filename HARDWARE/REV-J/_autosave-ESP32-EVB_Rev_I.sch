@@ -6460,17 +6460,6 @@ F 3 "" H 12600 14200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ESP32-EVB_Rev_I:SJ2W_Closed(1-2) 5.0V/3.3V2
-U 1 1 61B60BDC
-P 12600 14400
-F 0 "5.0V/3.3V2" V 12900 14150 50  0000 L BNN
-F 1 "Closed(1-2)/Opened(2-3)" V 12800 13850 50  0000 L BNN
-F 2 "OLIMEX_Jumpers-FP:SJ_2_SMALL_12_TIED" H 12630 14550 20  0001 C CNN
-F 3 "" H 12600 14400 60  0000 C CNN
-	1    12600 14400
-	1    0    0    1   
-$EndComp
-$Comp
 L ESP32-EVB_Rev_I:GND #PWR0115
 U 1 1 61C899C9
 P 12600 14600
@@ -6481,8 +6470,6 @@ F 3 "" H 12600 14600 60  0000 C CNN
 	1    12600 14600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12400 14400 11650 14400
 Wire Wire Line
 	11650 14400 11650 14000
 Wire Wire Line
@@ -6577,4 +6564,17 @@ Wire Wire Line
 Connection ~ 14400 13900
 Wire Wire Line
 	14400 13900 14400 14350
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 616705BA
+P 12600 14400
+F 0 "JP1" V 12646 14468 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 12555 14468 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels" H 12600 14400 50  0001 C CNN
+F 3 "~" H 12600 14400 50  0001 C CNN
+	1    12600 14400
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	11650 14400 12450 14400
 $EndSCHEMATC
