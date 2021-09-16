@@ -6866,4 +6866,112 @@ F 3 "" H 24800 2700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 24800 2700
+$Comp
+L ESP32-EVB_Rev_I:Mounting_hole_Shield_3.3mm MH1
+U 1 1 61522996
+P 24600 7000
+F 0 "MH1" H 24728 7000 50  0000 L CNN
+F 1 "Mounting_hole_Shield_3.3mm" H 24500 6885 50  0001 L BNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 24360 6925 20  0001 C CNN
+F 3 "" V 24600 7000 60  0000 C CNN
+F 4 "Value 1" H 24728 6954 60  0001 L CNN "Fieldname 1"
+F 5 "Value2" H 24600 7000 60  0001 C CNN "Fieldname2"
+F 6 "Value3" H 24600 7000 60  0001 C CNN "Fieldname3"
+	1    24600 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP32-EVB_Rev_I:GND #PWR0119
+U 1 1 6152299C
+P 24300 7000
+F 0 "#PWR0119" H 24300 6750 50  0001 C CNN
+F 1 "GND" V 24305 6872 50  0000 R CNN
+F 2 "" H 24300 7000 60  0000 C CNN
+F 3 "" H 24300 7000 60  0000 C CNN
+	1    24300 7000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	24300 7000 24500 7000
+$Comp
+L ESP32-EVB_Rev_I:Mounting_hole_Shield_3.3mm MH4
+U 1 1 615D4050
+P 24600 7200
+F 0 "MH4" H 24728 7200 50  0000 L CNN
+F 1 "Mounting_hole_Shield_3.3mm" H 24500 7085 50  0001 L BNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 24360 7125 20  0001 C CNN
+F 3 "" V 24600 7200 60  0000 C CNN
+F 4 "Value 1" H 24728 7154 60  0001 L CNN "Fieldname 1"
+F 5 "Value2" H 24600 7200 60  0001 C CNN "Fieldname2"
+F 6 "Value3" H 24600 7200 60  0001 C CNN "Fieldname3"
+	1    24600 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP32-EVB_Rev_I:GND #PWR0120
+U 1 1 615D4056
+P 24300 7200
+F 0 "#PWR0120" H 24300 6950 50  0001 C CNN
+F 1 "GND" V 24305 7072 50  0000 R CNN
+F 2 "" H 24300 7200 60  0000 C CNN
+F 3 "" H 24300 7200 60  0000 C CNN
+	1    24300 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	24300 7200 24500 7200
+$Comp
+L ESP32-EVB_Rev_I:Mounting_hole_Shield_3.3mm MH5
+U 1 1 61685A76
+P 24600 7450
+F 0 "MH5" H 24728 7450 50  0000 L CNN
+F 1 "Mounting_hole_Shield_3.3mm" H 24500 7335 50  0001 L BNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 24360 7375 20  0001 C CNN
+F 3 "" V 24600 7450 60  0000 C CNN
+F 4 "Value 1" H 24728 7404 60  0001 L CNN "Fieldname 1"
+F 5 "Value2" H 24600 7450 60  0001 C CNN "Fieldname2"
+F 6 "Value3" H 24600 7450 60  0001 C CNN "Fieldname3"
+	1    24600 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP32-EVB_Rev_I:GND #PWR0121
+U 1 1 61685A7C
+P 24300 7450
+F 0 "#PWR0121" H 24300 7200 50  0001 C CNN
+F 1 "GND" V 24305 7322 50  0000 R CNN
+F 2 "" H 24300 7450 60  0000 C CNN
+F 3 "" H 24300 7450 60  0000 C CNN
+	1    24300 7450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	24300 7450 24500 7450
+$Comp
+L ESP32-EVB_Rev_I:Mounting_hole_Shield_3.3mm MH6
+U 1 1 6173816D
+P 24600 7650
+F 0 "MH6" H 24728 7650 50  0000 L CNN
+F 1 "Mounting_hole_Shield_3.3mm" H 24500 7535 50  0001 L BNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 24360 7575 20  0001 C CNN
+F 3 "" V 24600 7650 60  0000 C CNN
+F 4 "Value 1" H 24728 7604 60  0001 L CNN "Fieldname 1"
+F 5 "Value2" H 24600 7650 60  0001 C CNN "Fieldname2"
+F 6 "Value3" H 24600 7650 60  0001 C CNN "Fieldname3"
+	1    24600 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP32-EVB_Rev_I:GND #PWR0122
+U 1 1 61738173
+P 24300 7650
+F 0 "#PWR0122" H 24300 7400 50  0001 C CNN
+F 1 "GND" V 24305 7522 50  0000 R CNN
+F 2 "" H 24300 7650 60  0000 C CNN
+F 3 "" H 24300 7650 60  0000 C CNN
+	1    24300 7650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	24300 7650 24500 7650
 $EndSCHEMATC
